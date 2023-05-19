@@ -20,12 +20,12 @@ export default function Home() {
 					</h3>
 					<div className='flex max-w-3xl justify-between p-10 text-center mx-auto'>
 						<Link href='/donationflow'>
-							<button className=' bg-blue-500 hover:bg-blue-700 text-white text-xl py-4 px-8 rounded'>
+							<button type='button' className=' bg-blue-500 hover:bg-blue-700 text-white text-xl py-4 px-8 rounded'>
 								Donate a Device
 							</button>
 						</Link>
 						<Link href='/requestflow'>
-							<button className='bg-blue-500 hover:bg-blue-700 text-white text-xl py-4 px-8 rounded'>
+							<button type='button' className='bg-blue-500 hover:bg-blue-700 text-white text-xl py-4 px-8 rounded'>
 								Request a Device
 							</button>
 						</Link>
