@@ -5,7 +5,7 @@ import image2 from './image/2.jpeg';
 
 export default function Home() {
 	return (
-		<div>
+		<div className='pl-20 pr-20'>
 			<header>
 				<div className='flex items-center justify-between flex-wrap bg-white p-6'>
 					<div>Give2Learn</div>
