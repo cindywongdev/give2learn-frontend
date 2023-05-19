@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Home() {
 	return (
@@ -22,12 +23,17 @@ export default function Home() {
 					</h3>
 				</div>
 				<div>
-					<button>Donate a Device</button>
-					<button>Request a Device</button>
+					<button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+						Donate a Device
+					</button>
+					<button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+						Request a Device
+					</button>
 				</div>
 				<div>
 					<h2>How this works</h2>
 					<div>
+						<Image src='/' alt='' width='300' height='200'></Image>
 						<h3>For Teachers</h3>
 						<p>
 							Submit a request for a device we have in our
@@ -37,6 +43,7 @@ export default function Home() {
 						</p>
 					</div>
 					<div>
+						<Image src='/' alt='' width='300' height='200'></Image>
 						<h3>For Donors</h3>
 						<p>
 							Simply fill out a simple form describing the device
