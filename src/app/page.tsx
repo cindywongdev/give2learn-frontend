@@ -2,27 +2,13 @@ import Link from 'next/link';
 import Image from 'next/image';
 import image1 from './image/1.jpeg';
 import image2 from './image/2.jpeg';
+import Nav from './nav/Nav'
+import Footer from './footer/Footer'
 
 export default function Home() {
 	return (
-		<div className='pl-20 pr-20'>
-			<header>
-				<div className='flex items-center justify-between flex-wrap bg-white p-6'>
-					<div>Give2Learn</div>
-					<Link href='/' className='mr-6'>
-						Home KSAFJKDSFJLFJDSLFJDKLFJ
-					</Link>
-					<Link href='/for-donors' className='mr-6'>
-						For donors
-					</Link>
-					<Link href='/for-teachers' className='mr-6'>
-						For teachers
-					</Link>
-					<Link href='/profile' className='mr-6'>
-						For profile
-					</Link>
-				</div>
-			</header>
+		<div className='container mx-auto'>
+			<Nav/>
 			<main>
 				<div className='bg-gray-200 text-center mx-auto'>
 					<h1 className='p-10 text-center mx-auto'>
@@ -78,11 +64,7 @@ export default function Home() {
 					</div>
 				</div>
 			</main>
-			<footer className='flex items-center justify-between flex-wrap bg-gray-500 p-6'>
-				<Link href='/about'>About</Link>
-				<Link href='/contact'>Contact</Link>
-				<Link href='/faq'>FAQ</Link>
-			</footer>
+			<Footer/>
 		</div>
 	);
 }
