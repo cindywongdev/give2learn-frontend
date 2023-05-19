@@ -25,7 +25,7 @@ export default function Home() {
 			</header>
 			<main>
 				<div className='bg-gray-200 text-center mx-auto'>
-					<h1 className='text-center mx-auto'>
+					<h1 className='p-10 text-center mx-auto'>
 						Did you know that over 41 million computers are
 						discarded when they’re broken or outdated?
 					</h1>
@@ -33,9 +33,9 @@ export default function Home() {
 						Find a new home for your old devices by supporting
 						students who need technology in their classrooms.
 					</h3>
-					<div className='text-center mx-auto'>
+					<div className='p-10 text-center mx-auto'>
 						<Link href='/donationflow'>
-							<button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+							<button className=' bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
 								Donate a Device
 							</button>
 						</Link>
