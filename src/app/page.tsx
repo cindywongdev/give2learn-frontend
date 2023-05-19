@@ -32,7 +32,7 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className='p-12 max-w-5xl mx-auto flex flex-col gap-12'>
+				<div className='p-12 max-w-5xl mx-auto flex flex-col gap-12 mb-4'>
 					<h2 className='text-center text-2xl font-bold mx-auto'>How this works</h2>
 					<div className='flex gap-4 max-h-44'>
 							<Image
