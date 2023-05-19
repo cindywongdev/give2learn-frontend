@@ -10,7 +10,7 @@ export default function Home() {
 				<div className='flex items-center justify-between flex-wrap bg-white p-6'>
 					<div>Give2Learn</div>
 					<Link href='/' className='mr-6'>
-						Home
+						Home KSAFJKDSFJLFJDSLFJDKLFJ
 					</Link>
 					<Link href='/for-donors' className='mr-6'>
 						For donors
