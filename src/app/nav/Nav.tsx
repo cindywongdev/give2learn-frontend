@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Nav(){
     return (
         <header>
-                    <div className='flex items-center justify-between flex-wrap bg-white py-12'>
+                    <div className='flex items-center justify-between flex-wrap p-12 w-screen'>
                         <div className="title text-4xl">Give2Learn</div>
 
                         <div className='flex gap-12'>

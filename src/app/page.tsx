@@ -2,31 +2,30 @@ import Link from 'next/link';
 import Image from 'next/image';
 import image1 from './image/1.jpeg';
 import image2 from './image/2.jpeg';
-import Nav from './nav/Nav'
-import Footer from './footer/Footer'
+import Nav from './nav/nav'
+import Footer from './footer/footer'
 
 export default function Home() {
 	return (
-		<div className='container mx-auto'>
+		<body className='container border-2 border-red-400 w-screen h-full'>
 			<Nav/>
-			<main>
-				<div className='bg-gray-200 text-center mx-auto'>
-					<h1 className='p-10 text-center mx-auto'>
-						Did you know that over 41 million computers are
-						discarded when they’re broken or outdated?
+			<main className='border-2 border-red-400 w-screen h-full'>
+				<div className='justify-end bg-gray-200 text-center h-96 w-screen p-16'>
+					<h1 className='text-3xl font-bold text-center mx-auto max-w-6xl mb-8'>
+						Did you know that 1 in 4 lower-income students don’t have access to a home computer?
 					</h1>
-					<h3 className='text-center mx-auto'>
+					<h3 className='text-xl max-w-3xl text-center mx-auto'>
 						Find a new home for your old devices by supporting
 						students who need technology in their classrooms.
 					</h3>
-					<div className='p-10 text-center mx-auto'>
+					<div className='flex max-w-3xl justify-between p-10 text-center mx-auto'>
 						<Link href='/donationflow'>
-							<button className=' bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+							<button className=' bg-blue-500 hover:bg-blue-700 text-white text-xl py-4 px-8 rounded'>
 								Donate a Device
 							</button>
 						</Link>
 						<Link href='/requestflow'>
-							<button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+							<button className='bg-blue-500 hover:bg-blue-700 text-white text-xl py-4 px-8 rounded'>
 								Request a Device
 							</button>
 						</Link>
@@ -65,6 +64,6 @@ export default function Home() {
 				</div>
 			</main>
 			<Footer/>
-		</div>
+		</body>
 	);
 }
