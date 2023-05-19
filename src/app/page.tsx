@@ -33,14 +33,14 @@ export default function Home() {
 						Find a new home for your old devices by supporting
 						students who need technology in their classrooms.
 					</h3>
-					<div className='p-10 text-center mx-auto'>
+					<div className='flex gap-12 p-10 text-center mx-auto'>
 						<Link href='/donationflow'>
 							<button className=' bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
 								Donate a Device
 							</button>
 						</Link>
 						<Link href='/requestflow'>
-							<button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+							<button type='button' className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
 								Request a Device
 							</button>
 						</Link>
