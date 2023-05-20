@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import Contact from '../image/contact.jpeg';
+import Image3 from '../image/contact.jpeg';
 
 export default function Nav(){
     return (
@@ -16,7 +16,7 @@ export default function Nav(){
 						About
 					</Link>
 					<Image 
-                        src={Contact}
+                        src={Image3}
                         alt='profile pic' 
                         width='35'>
                     </Image>
