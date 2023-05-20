@@ -269,7 +269,7 @@ export default function Page() {
 							<label htmlFor='start'>
 								Select your date for pick up:
 							</label>
-							<input type='date' id='start' name='start_date' />
+							<input required type='date' id='start' name='start_date' />
 						</div>
 					</div>
 				</div>
@@ -286,11 +286,17 @@ export default function Page() {
 				<p>
 					Thank you for your Donation! <br />
 					<br /> You will receive a confirmation email with a link to
-					print your UPS label.
-					You will also be sent a tax receipt once we have received
-					your device.
+					print your UPS label. You will also be sent a tax receipt
+					once we have received your device.
 				</p>
 			)}
+			{submitted && <hr className='mb-10 mt-5' />}
+			{submitted && <p>Tracking Number: {"#345652"}</p>}
+
+			{submitted && <p>Order Date: {"06/03/2023"}</p>}
+			{submitted && <p>Order Item: {'laptop'}</p>}
+			{submitted && <p>Quantity: {'1'}</p>}
+			{submitted && <hr className='mt-10' />}
 		</div>
 	);
 }
