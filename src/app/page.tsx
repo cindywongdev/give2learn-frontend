@@ -2,8 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import image1 from './image/1.jpeg';
 import image2 from './image/2.jpeg';
-import Nav from './nav/nav'
-import Footer from './footer/footer'
+import Nav from './nav/Nav.tsx';
+import Footer from './footer/Footer.tsx'
 
 export default function Home() {
 	return (

@@ -21,7 +21,7 @@ export default function Page() {
 				<Link href='/'>&lt; Back to homepage</Link>
 			</p>
 			{/* <h1 className='text-lg font-bold'>Device Donations</h1> */}
-			{/* <div className='progressbar flex items-center w-80 h-1 mr-80 mb-5 mt-5 justify-between bg-gray-200 rounded-full z-0'>
+			<div className='progressbar flex items-center w-80 h-1 mr-80 mb-5 mt-5 justify-between bg-gray-200 rounded-full z-0'>
 				<div className='bg-blue-800 text-white progressbar-step flex w-8 h-8 rounded-full counter-reset counter-step items-center justify-center'>
 					1
 				</div>
@@ -34,7 +34,7 @@ export default function Page() {
 				<div className='progressbar-step flex bg-gray-200 progressbar-step w-8 h-8 rounded-full counter-reset counter-step items-center justify-center'>
 					4
 				</div>
-			</div> */}
+			</div>
 			<form
 				className='bg-blue-200 py-10 px-10'
 				action='#'
