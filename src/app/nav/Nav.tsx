@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import Image3 from '../image/contact.jpeg';
+import Contact from '../image/contact.jpeg';
 
 export default function Nav(){
     return (
