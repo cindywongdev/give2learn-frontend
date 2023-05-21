@@ -35,7 +35,7 @@ export default function Nav(){
 						M
 					</div>
 					<div className={`absolute flex flex-col gap-2 bg-g2l-pale-yellow rounded-lg right-0 top-12 p-4 drop-shadow-lg ${openProfileMenu ? '' : 'hidden'}`}>
-						<Link href='/'>
+						<Link href='/user'>
 							My profile
 						</Link>
 						<Link href='/profile'>
