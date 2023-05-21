@@ -5,8 +5,14 @@ import image1 from './image/1.jpeg';
 import image2 from './image/2.jpeg';
 import Nav from './nav/Nav.tsx';
 import Footer from './footer/Footer.tsx'
+import LandingImg from './image/UI-icons/landing_img.png'
 
 export default function Home() {
+	const landingImgStyle = {
+		opacity: 0.35,
+		zIndex: -1
+	}
+
 	return (
 		<body className='container w-screen h-full'>
 			{/* yellow bar */}
@@ -14,8 +20,16 @@ export default function Home() {
 			
 			<Nav/>
 
-			<main className='border-2 w-screen h-full'>
-				<div className='flex flex-col gap-8 bg-gray-200 text-center h-[30rem] w-screen p-16'>
+			<main className='w-screen h-full'>
+				<div className='relative flex flex-col gap-8 text-center h-[35rem] w-screen p-16'>
+					<Image
+						src={LandingImg}
+						alt='image of young girl using laptop'
+						fill={true}
+						objectFit='cover'
+						style={landingImgStyle}
+					/>
+
 					<h1 className='text-2xl text-center mx-auto max-w-6xl font-bold'>
 						Did you know that 1 in 4 lower-income students don’t have access to a home computer?
 					</h1>
