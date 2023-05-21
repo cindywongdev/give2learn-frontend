@@ -48,7 +48,7 @@ export default function Home() {
 							</Image>
 						<div className='flex flex-col justify-between'>
 							<h3 className='text-xl font-bold'>For Teachers</h3>
-							<p className='text-xl'>
+							<p className='text-md'>
 								Submit a request for a device we have in our
 								inventory. Within a day, we will review your request
 								and begin the process for getting your requested
@@ -64,7 +64,7 @@ export default function Home() {
 							></Image>
 						<div className='flex flex-col justify-between'>
 							<h3 className='text-xl font-bold'>For Donors</h3>
-							<p className='text-xl'>
+							<p className='text-md'>
 							Simply fill out a simple form describing the device
 							you’ll be sending to us. Check out our criteria for
 							acceptable devices before you send your device in!
