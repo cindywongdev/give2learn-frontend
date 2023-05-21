@@ -8,33 +8,35 @@ import Nav from '../nav/Nav.tsx';
 
 export default function Page() {
 
-	const [submitted, setSubmitted] = useState(false);
+	const [submitted, setSubmitted] = useState('');
 
 	const url = 'https://give2learn-backend.onrender.com/donations';
 	const [data, setData] = useState({
-		firstName: 'Charlie',
-		lastName: 'Park',
-		email: 'charlie123@gmail.com',
-		phoneNumber: '123-456-7890',
-		fromState: 'Hawaii',
-		fromCity: 'Honolulu',
-		address1: '123 Test Street',
-		zipcode: 11111,
-		deviceType: 'laptop',
-		isPC: true,
-		brand: 'HP',
-		modelType: 'HP Pavilion Plus',
-		quantityToDonate: 1,
-		isPickup: true,
-		donateDate: '2023-05-27T00:00:00.000Z'
+		firstName: '',
+		lastName: '',
+		email: '',
+		phoneNumber: '',
+		fromState: '',
+		fromCity: '',
+		address1: '',
+		zipcode: '',
+		deviceType: '',
+		isPC: '',
+		brand: '',
+		modelType: '',
+		quantityToDonate: '',
+		isPickup: '',
+		donateDate: '',
 	});
 	
-function handleChange(e) {
-	const newData = { ...data };
-	newData[e.target.id] = e.target.value;
-	setData(newData);
+async function handleChange(e) {
+	 const newData = {...data};
+	 newData[e.target.id] = (e.target.value);
+	 setData(newData);
 	console.log(data);
 }
+
+
 
 	 async function handleSubmit(e) {
 		e.preventDefault();
