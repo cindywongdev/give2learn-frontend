@@ -16,6 +16,8 @@ import Footer from '../footer/Footer.tsx';
 function page() {
 	return (
 
+
+
 <div className='p-5 bg-g2l-bright-yellow'>
 	<div>
 		<Nav/>
@@ -49,6 +51,8 @@ function page() {
 									4
 									</div>
 							</div>
+
+							
 							
 				</div>
 				
@@ -95,18 +99,19 @@ function page() {
 			</div>
 		{/*  */}
 		<br></br>
-		{/*  */}
-		<h1>hello</h1>
+
+		{/* 2 */}
+	
 <div className='p-5 bg-blue-200' >
-								<div className='justify-end flex'>
-									<Image className='mb-10 mr-2' src={image6} alt=''width='20'></Image>
-									<Image className='mb-10 ml-2' src={image5} alt=''width='20'></Image>
-								</div>
+			<div className='justify-end flex'>
+				<Image className='mb-10 mr-2' src={image6} alt=''width='20'></Image>
+				<Image className='mb-10 ml-2' src={image5} alt=''width='20'></Image>
+			</div>
 <div className='justify-between flex'>
 								<div className='justify-between flex'>
 								
 									<div>
-									<Image className='mr-8' src={image8} alt=''width='90'></Image>
+										<Image className='mr-8' src={image8} alt=''width='90'></Image>
 									</div>
 									<ul>
 										<li>#060943</li>
@@ -150,3 +155,6 @@ function page() {
 }
 
 export default page;
+
+
+
