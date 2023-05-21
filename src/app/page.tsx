@@ -11,7 +11,7 @@ export default function Home() {
 			<Nav/>
 			<main className='border-2 w-screen h-full'>
 				<div className='flex flex-col gap-8 bg-gray-200 text-center h-96 w-screen p-16'>
-					<h1 className='text-3xl font-bold text-center mx-auto max-w-6xl'>
+					<h1 className='text-4xl text-center mx-auto max-w-6xl font-bold'>
 						Did you know that 1 in 4 lower-income students don’t have access to a home computer?
 					</h1>
 					<h3 className='text-xl max-w-3xl text-center mx-auto'>
