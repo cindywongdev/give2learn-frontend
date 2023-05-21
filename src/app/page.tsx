@@ -10,22 +10,22 @@ export default function Home() {
 		<body className='container w-screen h-full'>
 			<Nav/>
 			<main className='border-2 w-screen h-full'>
-				<div className='flex flex-col gap-8 bg-gray-200 text-center h-96 w-screen p-16'>
-					<h1 className='text-4xl text-center mx-auto max-w-6xl font-bold'>
+				<div className='flex flex-col gap-8 bg-gray-200 text-center h-[30rem] w-screen p-16'>
+					<h1 className='text-2xl text-center mx-auto max-w-6xl font-bold'>
 						Did you know that 1 in 4 lower-income students don’t have access to a home computer?
 					</h1>
-					<h3 className='text-xl max-w-3xl text-center mx-auto'>
+					<h3 className='text-md max-w-3xl text-center mx-auto'>
 						Find a new home for your old devices by supporting
 						students who need technology in their classrooms.
 					</h3>
 					<div className='flex w-full max-w-3xl justify-between text-center mx-auto'>
 						<Link href='/donationflow'>
-							<button type='button' className=' bg-blue-500 hover:bg-blue-700 text-white text-xl py-4 px-8 rounded'>
+							<button type='button' className=' bg-blue-500 hover:bg-blue-700 text-white text-sm py-4 px-8 rounded'>
 								Donate a Device
 							</button>
 						</Link>
 						<Link href='/requestflow'>
-							<button type='button' className='bg-blue-500 hover:bg-blue-700 text-white text-xl py-4 px-8 rounded'>
+							<button type='button' className='bg-blue-500 hover:bg-blue-700 text-white text-sm py-4 px-8 rounded'>
 								Request a Device
 							</button>
 						</Link>
