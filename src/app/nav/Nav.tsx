@@ -15,11 +15,12 @@ export default function Nav(){
 					<Link href='/about' className='mr-6'>
 						About
 					</Link>
-					<Image 
-                        src={Contact}
-                        alt='profile pic' 
-                        width='35'>
-                    </Image>
+					<Link href='/profile'>
+						<Image
+							src={Image3}
+							alt='profile pic'
+							width='35'></Image>
+					</Link>
 				</div>
 			</div>
 		</header>
