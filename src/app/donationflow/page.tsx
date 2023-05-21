@@ -12,22 +12,21 @@ export default function Page() {
 
 	const url = 'https://give2learn-backend.onrender.com/donations';
 	const [data, setData] = useState({
-		firstName: '',
-		lastName: '',
-		email: '',
-		phoneNumber: '',
-		fromState: '',
-		fromCity: '',
-		address1: '',
-		address2: '',
-		zipCode: '',
-		deviceType: '',
-		isPC: '',
-		brand: '',
-		modelType: '',
-		quantityToDonate: '',
-		isPicked: '',
-		donateDate: ''
+		firstName: 'Charlie',
+		lastName: 'Park',
+		email: 'charlie123@gmail.com',
+		phoneNumber: '123-456-7890',
+		fromState: 'Hawaii',
+		fromCity: 'Honolulu',
+		address1: '123 Test Street',
+		zipcode: 11111,
+		deviceType: 'laptop',
+		isPC: true,
+		brand: 'HP',
+		modelType: 'HP Pavilion Plus',
+		quantityToDonate: 1,
+		isPickup: true,
+		donateDate: '2023-05-27T00:00:00.000Z'
 	});
 	
 function handleChange(e) {
@@ -105,7 +104,7 @@ function handleChange(e) {
 								onChange={(e) => handleChange(e)}
 								value={data.email}
 								className='bg-gray-100'
-								type='text'
+								type='email'
 								id='email'
 								name='email'
 								placeholder='Email'
@@ -192,12 +191,12 @@ function handleChange(e) {
 							/>
 							<input
 								onChange={(e) => handleChange(e)}
-								value={data.zipCode}
+								value={data.zipcode}
 								className='bg-gray-100'
-								type='text'
-								id='zipCode'
-								name='zipCode'
-								placeholder='ZipCode'
+								type='number'
+								id='zipcode'
+								name='zipcode'
+								placeholder='Zipcode'
 							/>
 						</div>
 
@@ -270,11 +269,10 @@ function handleChange(e) {
 								value={data.isPC}
 								className='mr-7'
 								name='isPC'
-								id='isPC'
-								required>
+								id='isPC'>
 								<option value='' selected></option>
-								<option value='True'>PC</option>
-								<option value='False'>Mac</option>
+								<option value={true}>PC</option>
+								<option value={false}>Mac</option>
 							</select>
 							<label className='mr-2' htmlFor='brand'>
 								Brand
@@ -321,7 +319,7 @@ function handleChange(e) {
 							<input
 								onChange={(e) => handleChange(e)}
 								value={data.quantityToDonate}
-								type='text'
+								type='number'
 								placeholder='1'
 								id='quantityToDonate'
 								required
@@ -358,14 +356,14 @@ function handleChange(e) {
 								</p>
 								<select
 									onChange={(e) => handleChange(e)}
-									value={data.isPicked}
+									value={data.isPickup}
 									className='mr-7'
-									name='isPicked'
-									id='isPicked'
+									name='isPickup'
+									id='isPickup'
 									required>
 									<option value='' selected></option>
-									<option value='False'>Drop</option>
-									<option value='True'>Picked-up</option>
+									<option value={false}>Drop</option>
+									<option value={true}>Picked-up</option>
 								</select>
 							</div>
 							<div className='grid mt-10'>
