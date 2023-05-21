@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link';
 import Image from 'next/image';
 import image1 from './image/1.jpeg';
@@ -8,7 +9,11 @@ import Footer from './footer/Footer.tsx'
 export default function Home() {
 	return (
 		<body className='container w-screen h-full'>
+			{/* yellow bar */}
+			<div className='h-8 bg-g2l-bright-yellow min-w-full'></div>
+			
 			<Nav/>
+
 			<main className='border-2 w-screen h-full'>
 				<div className='flex flex-col gap-8 bg-gray-200 text-center h-[30rem] w-screen p-16'>
 					<h1 className='text-2xl text-center mx-auto max-w-6xl font-bold'>

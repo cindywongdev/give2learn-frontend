@@ -17,7 +17,7 @@ module.exports = {
         'g2l-blue': '#4B9EFF',
         'g2l-bright-yellow': '#FEBE2D',
         'g2l-mid-yellow': '#FFF8D2',
-        'g2l-pale-yellow': 'FFFDF3',
+        'g2l-pale-yellow': '#FFFDF3',
         'g2l-dark-gray': '#2C2C2C',
         'g2l-light-gray': '#C2C2C2',
       },
