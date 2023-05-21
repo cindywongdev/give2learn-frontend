@@ -12,7 +12,7 @@ export default function Nav(){
 					<Link href='/' className='mr-6'>
 						Home
 					</Link>
-					<Link href='/about' className='mr-6'>
+					<Link href='#' className='mr-6'>
 						About
 					</Link>
 					<Image 
