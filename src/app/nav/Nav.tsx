@@ -45,7 +45,6 @@ export default function Nav(){
 							Logout
 						</Link>
 					</div>
-         main
 				</div>
 			</div>
 		</header>
