@@ -20,6 +20,8 @@ module.exports = {
         'g2l-pale-yellow': '#FFFDF3',
         'g2l-dark-gray': '#2C2C2C',
         'g2l-light-gray': '#C2C2C2',
+        'g2l-button-hover': '#FFD26B',
+        'g2l-button-inactive': '#FFDD8E',
       },
       fontSize: {
         '2xl': '40px',
