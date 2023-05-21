@@ -15,6 +15,7 @@ module.exports = {
       },
       colors: {
         'g2l-blue': '#4B9EFF',
+        'g2l-form-select-blue': '#6688DB',
         'g2l-bright-yellow': '#FEBE2D',
         'g2l-mid-yellow': '#FFF8D2',
         'g2l-pale-yellow': '#FFFDF3',
