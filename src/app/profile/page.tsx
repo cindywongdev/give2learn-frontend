@@ -6,10 +6,13 @@ import image2 from '../image/UI-icons/trash.png';
 import image3 from '../image/UI-icons/Laptop mac.png';
 import image4 from '../image/UI-icons/plus.png';
 import image7 from '../image/UI-icons/Vector-5.png';
+import image8 from '../image/UI-icons/Vector.png';
+import image9 from '../image/UI-icons/Vector-4.png';
 import image5 from '../image/dl.png';
 import image6 from '../image/edit.png';
 import Link from 'next/link';
 import Nav from '../nav/Nav.tsx';
+import Footer from '../footer/Footer.tsx';
 function page() {
 	return (
 
@@ -76,8 +79,8 @@ function page() {
 						</div>
 				
 						{/* arrowdown */}
-									<div classname='justify-center'>
-									<Image className='mr-8' src={image7} alt=''width='30'></Image>
+									<div className='flex justify-center'>
+									<Image src={image9} alt=''width='30'></Image>
 									</div>
 						{/* arrowdown */}		
 				<div className='flex justify-between'>
@@ -103,27 +106,27 @@ function page() {
 								<div className='justify-between flex'>
 								
 									<div>
-									<Image className='mr-8' src={image3} alt=''width='90'></Image>
+									<Image className='mr-8' src={image8} alt=''width='90'></Image>
 									</div>
 									<ul>
-										<li>#0784329</li>
-										<li>Laptop</li>
-										<li>Dell, Dell Latitude 5000</li>
+										<li>#060943</li>
+										<li>Desktop</li>
+										<li>Apple, iMac 24"</li>
 									</ul>
 								</div>
 								{/*  */}
 								<div>
-									<h1>Application under review</h1>
+									<h1>Approved</h1>
 								</div>
 								{/*  */}
 							  <ul>
-										<li>Date: 05/22/23</li>
+										<li>Date: 02/15/23</li>
 										<li>Quantity:6</li>
 								</ul>
 						</div>
 						{/* arrowdown */}
-									<div classname='justify-center'>
-									<Image className='mr-8' src={image7} alt=''width='30'></Image>
+									<div className=' flex justify-center'>
+									<Image src={image7} alt=''width='30'></Image>
 									</div>
 						{/* arrowdown */}		
 						
@@ -132,13 +135,15 @@ function page() {
 		{/*  */}
 		
 		<div className='flex justify-center'>
-		<button className=" mt-10 flex items-center px-4 py-2 text-white bg-blue-500 hover:bg-blue-600 rounded-md">
+		<button className=" mt-10 mb-10 flex items-center px-4 py-2 text-white bg-blue-500 hover:bg-blue-600 rounded-md">
       		<span className="mr-2">New Application</span>
       			+
     	</button>
 	
 		</div>
+		<div><Footer/></div>
 	</div>
+
 
 		
 	);
