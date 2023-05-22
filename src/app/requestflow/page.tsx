@@ -39,7 +39,7 @@ export default function Request() {
 					<Link href='/'>&lt; Back to homepage</Link>
 				</p>
 				<h1 className='pl-0 p-10 text-lg font-bold'>
-					Device Request from
+					Device Request Form
 				</h1>
 				<div className=''>
 					<form

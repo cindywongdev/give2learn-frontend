@@ -11,7 +11,7 @@ export default function Nav() {
 
 	return (
 		<header>
-			<div className=' bg-g2l-bright-yellow w-full h-8 z-10 ml-0'></div>
+			<div className=' bg-g2l-bright-yellow w-screen h-8 z-10 ml-0'></div>
 			<div className='flex items-center justify-between flex-wrap py-8 px-20 w-screen bg-g2l-pale-yellow drop-shadow-md'>
 				<div className='relative w-56 flex gap-2'>
 					<div className='text-xl font-semibold text-g2l-bright-yellow'>
