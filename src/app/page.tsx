@@ -61,21 +61,11 @@ export default function Home() {
 						<h2 className='text-center text-xl font-bold mx-auto mb-8'>
 							Our Mission
 						</h2>
-						<p className='text-md text-center mb-16 max-w-5xl'>
-							Founded in 2005, Give2Learn is a non-profit
-							organization dedicated to help meet the growing
-							demand for technology in classrooms. We believe all
-							students deserve access to technology in order to
-							participate on an even level playing field, yet some
-							students are falling behind due to the lack of tech
-							resources. Your generous computer and tablet
-							donations assists us to give students the devices
-							needed to complete schoolwork and to continue to
-							learn. We invite anyone with a computer or tablet
-							they no longer need to donate today!
+						<p className='text-md text-center mb-16 max-w-4xl'>
+							Give2Learn is a non-profit organization dedicated to help meet the growing demand for technology in classrooms and promote digital inclusion. We believe all students deserve access to technology in order to participate on an even-level playing field, yet some students are falling behind due to the lack of tech resources. Your generous computer and tablet donations assists us to give students the devices needed to complete schoolwork and to continue to learn. We invite anyone with a computer or tablet they no longer need to donate today!
 						</p>
 						<button className='py-2 px-6 border-g2l-blue border-2 w-fit rounded-lg text-g2l-blue text-sm hover:bg-g2l-blue hover:text-white'>
-							Learn more about the schools you support
+							Learn more about our life-changing initiatives
 						</button>
 					</div>
 
@@ -84,7 +74,7 @@ export default function Home() {
 
 					<div className='flex flex-col gap-16 mb-4'>
 						<h2 className='text-center text-xl font-bold mx-auto'>
-							How It works
+							How It Works
 						</h2>
 						<div className='flex gap-48'>
 							<Image
@@ -96,8 +86,7 @@ export default function Home() {
 								<p className='text-md'>
 									Donating your unwanted computer or tablet
 									(any brand—new or old) is quick and easy!
-									Simply fill out a form describing the device
-									and we’ll provide a free shipping label. You
+									Simply fill out a form and we’ll provide a free shipping label. You
 									have the option to have your items picked-up
 									too. We will then refurbish the devices and
 									send them off to schools. You will receive a
@@ -107,16 +96,12 @@ export default function Home() {
 							</div>
 						</div>
 						<div className='flex gap-52'>
-							<div className='flex flex-col gap-6 justify-center w-fit'>
+							<div className='flex flex-col gap-6 justify-center'>
 								<h3 className='text-lg font-bold'>
 									Teachers and Schools
 								</h3>
 								<p className='text-md'>
-									Are you in need of a computer or tablet for
-									your classroom? Tell us why you are a
-									candidate and we will process your request
-									for a refurbished device to further your
-									students’ education.
+									Are you in need of a computer or tablet for your classroom? Submit your credentials and we’ll process your request for a refurbished device to further your students’ education.
 								</p>
 							</div>
 							<Image

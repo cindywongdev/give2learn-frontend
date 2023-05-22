@@ -36,9 +36,9 @@ export default function Nav() {
 						className={`absolute flex flex-col gap-2 bg-g2l-pale-yellow rounded-lg right-0 top-12 p-4 drop-shadow-lg ${
 							openProfileMenu ? '' : 'hidden'
 						}`}>
-						<Link href='/user'>My profile</Link>
+						<Link href='/user'>My Profile</Link>
 						<a href='/profile'>My Applications</a>
-						<Link href='/'>Logout</Link>
+						<Link href='/'>Log Out</Link>
 					</div>
 				</div>
 			</div>

@@ -73,13 +73,13 @@ export default function Page() {
 					action='POST'>
 					<div className='visible'>
 						<h3 className='mb-12 font-bold text-xl'>
-							Device donation form
+							Device Donation Form
 						</h3>
 						{/* <p>1 of 3 steps</p> */}
 						<label
 							className='font-bold'
 							htmlFor='personal information'>
-							Personal information
+							Personal Information
 						</label>
 						<div className='flex gap-8'>
 							<input
@@ -119,35 +119,15 @@ export default function Page() {
 								type='text'
 								id='phoneNumber'
 								name='phoneNumber'
-								placeholder='phoneNumber'
+								placeholder='Phone Number'
 								required
 							/>
 						</div>
 						<div className='grid mt-10'>
 							<p className='font-bold'>Location</p>
-							<p>where are you donating from?</p>
+							<p>Where are you donating from?</p>
 							<div className='flex gap-8'>
-								<div className='flex gap-8'>
-									<select
-										onChange={(e) => handleChange(e)}
-										value={data.fromState}
-										title='fromState'
-										id='fromState'
-										required>
-										<option value='' selected></option>
-										<option>Washington</option>
-										<option>California</option>
-										<option>New York</option>
-										<option>Massachusetts</option>
-										<option>Florida</option>
-										<option>Texas</option>
-										<option>Arizona</option>
-										<option>Utah</option>
-										<option>Colorado</option>
-										<option>Montana</option>
-									</select>
-								</div>
-								<div className=' flex gap-8'>
+							<div className=' flex gap-8'>
 									<select
 										onChange={(e) => handleChange(e)}
 										value={data.fromCity}
@@ -168,6 +148,26 @@ export default function Page() {
 										<option>Billings</option>
 									</select>
 								</div>
+								<div className='flex gap-8'>
+									<select
+										onChange={(e) => handleChange(e)}
+										value={data.fromState}
+										title='fromState'
+										id='fromState'
+										required>
+										<option value='' selected></option>
+										<option>Washington</option>
+										<option>California</option>
+										<option>New York</option>
+										<option>Massachusetts</option>
+										<option>Florida</option>
+										<option>Texas</option>
+										<option>Arizona</option>
+										<option>Utah</option>
+										<option>Colorado</option>
+										<option>Montana</option>
+									</select>
+								</div>
 							</div>
 						</div>
 						<div className='grid gap-2 w-1/2 mt-10'>
@@ -179,7 +179,7 @@ export default function Page() {
 								type='text'
 								id='address1'
 								name='address1'
-								placeholder='First Address'
+								placeholder='Address Line 1'
 								required
 							/>
 							<input
@@ -189,7 +189,7 @@ export default function Page() {
 								type='text'
 								id='address2'
 								name='address2'
-								placeholder='Second Address'
+								placeholder='Address Line 2'
 							/>
 							<input
 								onChange={(e) => handleChange(e)}
@@ -200,15 +200,15 @@ export default function Page() {
 								max='99999'
 								id='zipcode'
 								name='zipcode'
-								placeholder='Zipcode'
+								placeholder='Zip Code'
 							/>
 						</div>
 
 						<div className='grid mt-10'>
 							<label className='font-bold' htmlFor='deviceType'>
-								Device info
+								Device Info
 							</label>
-							<p>what type of devices will you be donating?</p>
+							<p>Type of Device</p>
 							<div className='flex gap-8'>
 								<select
 									onChange={(e) => handleChange(e)}
@@ -356,8 +356,7 @@ export default function Page() {
 									Donation Send Off
 								</label>
 								<p>
-									do you wish to drop the tech or have it
-									picked up
+									Shipping Options
 								</p>
 								<select
 									title='pickup or drop off'
@@ -368,18 +367,18 @@ export default function Page() {
 									id='isPickup'
 									required>
 									<option value='' selected></option>
-									<option value={false}>Drop</option>
-									<option value={true}>Picked-up</option>
+									<option value={false}>Drop Off</option>
+									<option value={true}>Pick Up</option>
 								</select>
 							</div>
 							<div className='grid mt-10'>
 								<label
 									className='font-bold'
 									htmlFor='donateDate'>
-									date
+									Date
 								</label>
 								<label htmlFor='donateDate'>
-									Select your date for pick up:
+									Select Date for Pick Up
 								</label>
 								<input
 									onChange={(e) => handleChange(e)}

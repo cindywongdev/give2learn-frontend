@@ -1,7 +1,8 @@
+'use client'
 import Nav from "../nav/Nav";
 import Footer from "../footer/Footer";
 
-export default function () {
+export default function ThankYou() {
     return (<div>
         <Nav />
         <div className='m-12 h-screen'>

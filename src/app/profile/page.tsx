@@ -60,9 +60,9 @@ function page() {
 						
 						<div className=' flex flex-col' >
 						<ul className='flex max-w-[900px] justify-between'>
-											<li className='w-[100px] '>Application under review &nbsp;</li>
-											<li>Approved &nbsp; &nbsp;</li>
-											<li>Out for shipping &nbsp; &nbsp;</li>
+											<li>Application Pending</li>
+											<li>Approved</li>
+											<li>Out for Shipping</li>
 											<li>Delivered</li>
 									</ul>
 							<div className='progressbar flex items-center w-[900px] h-1 mr-80 mb-5 mt-5 justify-between bg-gray-200 rounded-full z-0'>
@@ -101,12 +101,12 @@ function page() {
 								</div>
 								{/*  */}
 								<div>
-									<h1>Application under review</h1>
+									<h1>Application Pending</h1>
 								</div>
 								{/*  */}
 							  <ul>
 										<li>Date: 05/22/23</li>
-										<li>Quantity:6</li>
+										<li>Quantity: 6</li>
 								</ul>
 						</div>
 				
@@ -159,8 +159,8 @@ function page() {
 								</div>
 								{/*  */}
 							  <ul>
-										<li>Date: 02/15/23</li>
-										<li>Quantity:6</li>
+										<li>Date: 05/30/23</li>
+										<li>Quantity: 6</li>
 								</ul>
 						</div>
 						{/* arrowdown */}

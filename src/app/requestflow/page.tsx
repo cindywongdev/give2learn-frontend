@@ -48,9 +48,9 @@ export default function Request() {
 						onSubmit={handleSubmit}
 						method='post'
 						action='POST'>
-						<h3 className='font-bold mb-10'>Device info</h3>
+						<h3 className='font-bold mb-10'>Device Info</h3>
 						<label htmlFor='deviceType' className='mb-3'>
-							What type of device do you need?
+							Type of Device
 						</label>
 						<div className=''>
 							<select
@@ -67,7 +67,7 @@ export default function Request() {
 						</div>
 						<div className=''>
 							<h3 className='font-bold mt-10'>
-								Please provide device information
+								Please Provide Device Information
 							</h3>
 
 							<div className='grid gap-8'>
