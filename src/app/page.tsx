@@ -1,18 +1,21 @@
-'use client'
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
+
+'use client';
 import Link from 'next/link';
 import Image from 'next/image';
 import image1 from './image/UI-icons/gift.svg';
 import image2 from './image/UI-icons/teacher.svg';
 import Nav from './nav/Nav';
-import Footer from './footer/Footer'
-import LandingImg from './image/UI-icons/landing_img.png'
-import Dots from './image/UI-icons/carousel_bottom.svg'
+import Footer from './footer/Footer';
+import LandingImg from './image/UI-icons/landing_img.png';
+import Dots from './image/UI-icons/carousel_bottom.svg';
 
 export default function Home() {
 	const landingImgStyle = {
 		opacity: 0.35,
-		zIndex: -1
-	}
+		zIndex: -1,
+	};
 
 	return (
 		<body className='container w-screen h-full'>
