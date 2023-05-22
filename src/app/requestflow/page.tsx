@@ -13,6 +13,7 @@ export default function Request() {
 	const url = 'https://give2learn-backend.onrender.com/requests';
 	const [data, setData] = useState({
 		deviceType: '',
+		brand: '',
 		isPC: '',
 		modelType: '',
 		quantityToRequest: '',
@@ -49,7 +50,7 @@ export default function Request() {
 						action='POST'>
 						<h3 className='font-bold mb-10'>Device info</h3>
 						<label htmlFor='deviceType' className='mb-3'>
-							what type of device do you need?
+							What type of device do you need?
 						</label>
 						<div className=''>
 							<select
@@ -70,9 +71,9 @@ export default function Request() {
 							</h3>
 
 							<div className='grid gap-8'>
-								<div>
+								<div className='flex flex-col'>
 									<label htmlFor='isPC' className='mt-2'>
-										pc or mac
+										PC or Mac?
 									</label>
 									<select
 										className='w-1/6 mt-2 mb-5'
@@ -90,7 +91,7 @@ export default function Request() {
 										<select
 											className='w-1/6 mt-2 mb-5'
 											onChange={(e) => handleChange(e)}
-											value='b'
+											value={data.brand}
 											title='brand'
 											id='brand'>
 											<option value='' selected></option>
