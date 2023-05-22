@@ -132,27 +132,14 @@ export default function Request() {
 										title='button'
 										type='submit'
 										className='btn btn-primary bg-blue-500 hover:bg-blue-700 text-white text-md mt-10 py-2 px-7 rounded w-fit'>
-										Submit
+										<Link href='/thankyou'>
+											Submit
+										</Link>
 									</button>
 								</div>
 							</div>
 						</div>
 					</form>
-					{submitted && (
-						<p>
-							Application Submitted! <br />
-							<br /> Your application have been submitted and will
-							be reviewed. You will receive a confirmation email
-							once approved.
-						</p>
-					)}
-					{submitted && (
-						<p>
-							Expected Delivery <br />
-							<br /> Expected delivery will be sent to your email
-							once application is approved.
-						</p>
-					)}
 				</div>
 			</div>
 		</div>
