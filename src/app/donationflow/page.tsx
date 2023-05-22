@@ -280,7 +280,6 @@ async function handleChange(e) {
 								Brand
 							</label>
 							<select
-								required
 								onChange={(e) => handleChange(e)}
 								value={data.brand}
 								className='mr-7'
