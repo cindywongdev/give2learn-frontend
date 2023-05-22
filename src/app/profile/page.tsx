@@ -150,7 +150,7 @@ function page() {
 									<ul>
 										<li>#060943</li>
 										<li>Desktop</li>
-										<li>Apple, iMac 24"</li>
+										<li>Apple, iMac 24</li>
 									</ul>
 								</div>
 								{/*  */}
