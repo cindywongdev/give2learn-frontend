@@ -38,8 +38,8 @@ async function handleChange(e) {
 
 
 
-	 async function handleSubmit(e) {
-		e.preventDefault();
+	 async function handleSubmit(event) {
+		event.preventDefault();
 		await axios.post(url, data);
 		setSubmitted(true);
 	}

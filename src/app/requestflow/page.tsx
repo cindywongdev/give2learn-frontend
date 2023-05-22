@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import { useRouter } from 'next/router';
 import Nav from '../nav/Nav.tsx';
 
-export default function page() {
+export default function Request() {
 
 	const [submitted, setSubmitted] = useState('');
 
