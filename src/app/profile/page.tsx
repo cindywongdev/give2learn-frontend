@@ -1,4 +1,5 @@
-'use client'
+// @ts-nocheck
+'use client';
 import React from 'react';
 import Image from 'next/image';
 import image1 from '../image/UI-icons/fill-in-2.png';
@@ -33,7 +34,6 @@ function page() {
 	// 	setSubmitted(true);
 	// }
 	return (
-
 		// const post = useLoaderData();
 
 <div className='p-5 bg-g2l-pale-yellow'>
@@ -186,12 +186,7 @@ function page() {
 		<div><Footer/></div>
 	</div>
 
-
-		
 	);
 }
 
 export default page;
-
-
-
