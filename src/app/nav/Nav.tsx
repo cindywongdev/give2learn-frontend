@@ -14,14 +14,16 @@ export default function Nav() {
 			<div className=' bg-g2l-bright-yellow w-screen h-8 z-10 ml-0'></div>
 			<div className='flex items-center justify-between flex-wrap py-8 px-20 w-screen bg-g2l-pale-yellow drop-shadow-md'>
 				<div className='relative w-56 flex gap-2'>
-					<div className='text-xl font-semibold text-g2l-bright-yellow'>
-						Give
-						<span className='text-g2l-blue'>2</span>
-						Learn
-					</div>
-					<div className='logo absolute right-0 top-1'>
-						<Image src={Logo} alt='logo' width='40' />
-					</div>
+					<Link href='/'>
+						<div className='text-xl font-semibold text-g2l-bright-yellow'>
+							Give
+							<span className='text-g2l-blue'>2</span>
+							Learn
+						</div>
+						<div className='logo absolute right-0 top-1'>
+							<Image src={Logo} alt='logo' width='40' />
+						</div>
+					</Link>
 				</div>
 
 				<div className='relative flex gap-12 items-center'>
