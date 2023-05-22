@@ -10,34 +10,62 @@ import image8 from '../image/UI-icons/Vector.png';
 import image9 from '../image/UI-icons/Vector-4.png';
 import image5 from '../image/dl.png';
 import image6 from '../image/edit.png';
-import Link from 'next/link';
 import Nav from '../nav/Nav.tsx';
 import Footer from '../footer/Footer.tsx';
+// import axios from 'axios';
+import Link from 'next/link';
+// import { useState } from 'react';
+// import { useEffect } from 'react';
+// import { useRouter } from 'next/router';
+
 function page() {
+
+
+	// const [submitted, setSubmitted] = useState(false);
+	
+	// function handleSubmit(event) {
+	// 	event.preventDefault();
+    // 	axios.post('https://give2learn-backend.onrender.com/donations').then(response => {
+	// 		console.log(response)
+	// 	}).catch(err => {
+	// 		console.log(err)
+	// 	});
+	// 	setSubmitted(true);
+	// }
 	return (
 
+		// const post = useLoaderData();
 
-
-<div className='p-5 bg-g2l-bright-yellow'>
+<div className='p-5 bg-g2l-pale-yellow'>
 	<div>
 		<Nav/>
 	</div>
-		<div className='mb-5' ><Link href='/'>&lt; Back to homepage</Link></div>
+	<div className='mb-3 ml-10' ><Link href='/'>&lt; Back to homepage</Link></div>
+	{/* homepage div */}
+			<div className='p-32'>
+		
 			<h2 className='mb-5 text-2xl/20 font-black text-xl'>My Application</h2>
-  				<div className='bg-blue-200 p-10'> {/* top container div */}
+  				<div className=' rounded-lg drop-shadow-lg bg-white p-10'>
+				  {/* <Form action={`/delete/${post.id}`} method="post"> top container div */}
 				  				<div className='justify-end flex'>
 									<Image className='mb-10 mr-2' src={image6} alt=''width='20'></Image>
 									<Image className='mb-10 ml-2' src={image5} alt=''width='20'></Image>
+									
+										{/* <Form action={`/delete/${post.id}`} method="post">
+										
+											<button>Delete Book</button>
+										</Form> */}
 								</div>
+								{/* </Form> */}
 						
-						<div className='flex space-beween w-300' >
-						<ul className='flex '>
-											<li className='w-20 '>Application under review</li>
+						<div className=' flex flex-col' >
+						<ul className='flex max-w-[900px] justify-between'>
+											<li className='w-[100px] '>Application under review &nbsp;</li>
 											<li>Approved &nbsp; &nbsp;</li>
 											<li>Out for shipping &nbsp; &nbsp;</li>
 											<li>Delivered</li>
 									</ul>
-							<div className='progressbar flex items-center w-80 h-1 mr-80 mb-5 mt-5 justify-between bg-gray-200 rounded-full z-0'>
+							<div className='progressbar flex items-center w-[900px] h-1 mr-80 mb-5 mt-5 justify-between bg-gray-200 rounded-full z-0'>
 									<div className='bg-blue-800 text-white progressbar-step flex w-8 h-8 rounded-full counter-reset counter-step items-center justify-center'>
 									1   
 									</div>
@@ -102,10 +130,16 @@ function page() {
 
 		{/* 2 */}
 	
-<div className='p-5 bg-blue-200' >
+<div className='rounded-lg drop-shadow-lg p-5 bg-white' >
 			<div className='justify-end flex'>
 				<Image className='mb-10 mr-2' src={image6} alt=''width='20'></Image>
+
 				<Image className='mb-10 ml-2' src={image5} alt=''width='20'></Image>
+			
+						{/* <Form action={`/delete/${post.id}`} method="post">
+						
+							<button>Delete Book</button>
+						</Form> */}
 			</div>
 <div className='justify-between flex'>
 								<div className='justify-between flex'>
@@ -141,11 +175,14 @@ function page() {
 		
 		<div className='flex justify-center'>
 		<button className=" mt-10 mb-10 flex items-center px-4 py-2 text-white bg-blue-500 hover:bg-blue-600 rounded-md">
-      		<span className="mr-2">New Application</span>
+		<Link href='/requestflow'><span className="mr-2">New Application</span></Link>
       			+
     	</button>
 	
 		</div>
+			</div>
+			
+		{/* /requestflow */}
 		<div><Footer/></div>
 	</div>
 
