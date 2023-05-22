@@ -1,8 +1,9 @@
+'use client';
 import Nav from '../nav/Nav.tsx';
 function Contact() {
 	return (
 		<div>
-			<Nav/>
+			<Nav />
 			<div>
 				<div className='contact flex mx-auto text-center'>
 					<h1>contact</h1>

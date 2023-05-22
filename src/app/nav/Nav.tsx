@@ -1,12 +1,13 @@
+'use client';
 import Link from 'next/link';
 import Image from 'next/image';
-import Logo from '../image/UI-icons/logo.png'
-import { useState } from 'react'
+import Logo from '../image/UI-icons/logo.png';
+import { useState } from 'react';
 
-export default function Nav(){
-	const [openProfileMenu, setOpenProfileMenu] = useState(false)
+export default function Nav() {
+	const [openProfileMenu, setOpenProfileMenu] = useState(false);
 
-    return (
+	return (
 		<header>
 			<div className=' bg-g2l-bright-yellow w-full h-8 z-10 ml-0'></div>
 			<div className='flex items-center justify-between flex-wrap py-8 px-20 w-screen bg-g2l-pale-yellow drop-shadow-md'>
