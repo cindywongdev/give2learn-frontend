@@ -36,11 +36,11 @@ function page() {
 	return (
 		// const post = useLoaderData();
 
-<div className='p-5 bg-g2l-pale-yellow'>
+<div className='bg-g2l-pale-yellow'>
 	<div>
 		<Nav/>
 	</div>
-	<div className='mb-3 ml-10' ><Link href='/'>&lt; Back to homepage</Link></div>
+	<div className='my-3 ml-10' ><Link href='/'>&lt; Back to homepage</Link></div>
 	{/* homepage div */}
 			<div className='p-32'>
 		

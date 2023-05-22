@@ -37,7 +37,7 @@ export default function Nav() {
 							openProfileMenu ? '' : 'hidden'
 						}`}>
 						<Link href='/user'>My profile</Link>
-						<Link href='/profile'>My Applications</Link>
+						<a href='/profile'>My Applications</a>
 						<Link href='/'>Logout</Link>
 					</div>
 				</div>
