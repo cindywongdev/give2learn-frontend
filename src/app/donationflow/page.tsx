@@ -196,6 +196,8 @@ export default function Page() {
 								value={data.zipcode}
 								className='bg-gray-100'
 								type='number'
+								min='0'
+								max='99999'
 								id='zipcode'
 								name='zipcode'
 								placeholder='Zipcode'
@@ -321,6 +323,8 @@ export default function Page() {
 								onChange={(e) => handleChange(e)}
 								value={data.quantityToDonate}
 								type='number'
+								min='0'
+								max='99'
 								placeholder='1'
 								id='quantityToDonate'
 								required
