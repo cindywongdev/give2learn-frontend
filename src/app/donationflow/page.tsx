@@ -29,7 +29,7 @@ export default function Page() {
 		donateDate: '',
 	});
 	
-async function handleChange(e) {
+async function handleChange(e: string[]) {
 	 const newData = {...data};
 	 newData[e.target.id] = (e.target.value);
 	 setData(newData);
@@ -38,7 +38,7 @@ async function handleChange(e) {
 
 
 
-	 async function handleSubmit(event) {
+	 async function handleSubmit(event: string[]) {
 		event.preventDefault();
 		await axios.post(url, data);
 		setSubmitted(true);
