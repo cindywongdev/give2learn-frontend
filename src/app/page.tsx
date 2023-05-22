@@ -3,8 +3,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import image1 from './image/UI-icons/gift.svg';
 import image2 from './image/UI-icons/teacher.svg';
-import Nav from './nav/Nav.tsx';
-import Footer from './footer/Footer.tsx'
+import Nav from './nav/Nav';
+import Footer from './footer/Footer'
 import LandingImg from './image/UI-icons/landing_img.png'
 import Dots from './image/UI-icons/carousel_bottom.svg'
 

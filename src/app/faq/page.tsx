@@ -1,5 +1,5 @@
 'use client';
-import Nav from '../nav/Nav.tsx';
+import Nav from '../nav/Nav';
 function FAQ() {
 	return (
 		<div>
