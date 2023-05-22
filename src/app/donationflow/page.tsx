@@ -1,4 +1,5 @@
 'use client';
+import { ChangeEvent } from 'react';
 import axios from 'axios';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -29,10 +30,10 @@ export default function Page() {
 		donateDate: '',
 	});
 	
-async function handleChange(e: string[]) {
-	 const newData = {...data};
-	 newData[e.target.id] = (e.target.value);
-	 setData(newData);
+async function handleChange(e: ChangeEvent<HTMLInputElement>) {
+	const newData = { ...data };
+	newData[e.target.id] = e.target.value;
+	setData(newData);
 	console.log(data);
 }
 
