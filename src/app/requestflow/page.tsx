@@ -1,3 +1,4 @@
+// @ts-nocheck
 'use client';
 import axios from 'axios';
 import Link from 'next/link';
@@ -7,15 +8,14 @@ import { useRouter } from 'next/router';
 import Nav from '../nav/Nav';
 
 export default function Request() {
-
 	const [submitted, setSubmitted] = useState('');
 
 	const url = 'https://give2learn-backend.onrender.com/requests';
 	const [data, setData] = useState({
-			deviceType: '',
-			isPC: '',
-			modelType: '',
-			quantityToRequest: ''
+		deviceType: '',
+		isPC: '',
+		modelType: '',
+		quantityToRequest: '',
 	});
 
 	async function handleChange(e) {

@@ -1,4 +1,4 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+
 // @ts-nocheck
 'use client';
 import { ChangeEvent } from 'react';
@@ -356,6 +356,7 @@ export default function Page() {
 									picked up
 								</p>
 								<select
+									title='pickup or drop off'
 									onChange={(e) => handleChange(e)}
 									value={data.isPickup}
 									className='mr-7'

@@ -1,4 +1,4 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+
 // @ts-nocheck
 import Image from 'next/image';
 import Logo from '../image/UI-icons/logo.png';
