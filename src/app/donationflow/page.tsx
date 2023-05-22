@@ -392,7 +392,7 @@ export default function Page() {
 						<button
 							title='button'
 							type='submit'
-							className='btn btn-primary bg-blue-500 hover:bg-blue-700 text-white text-xl mt-10 py-2 px-7 rounded'>
+							className='btn btn-primary bg-blue-500 hover:bg-blue-700 text-white text-md mt-10 py-2 px-7 rounded'>
 							Submit
 						</button>
 					</div>

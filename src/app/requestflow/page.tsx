@@ -90,12 +90,11 @@ export default function Request() {
 										<select
 											className='w-1/6 mt-2 mb-5'
 											onChange={(e) => handleChange(e)}
-											value=''
-											title=''
-											id='modelType'>
+											value='b'
+											title='brand'
+											id='brand'>
 											<option value='' selected></option>
-											<option disabled>Dell</option>
-											<option disabled>Apple</option>
+											<option>HP</option>
 										</select>
 									</div>
 									<p>Model</p>
@@ -108,10 +107,10 @@ export default function Request() {
 											id='modelType'
 											required>
 											<option value='' selected></option>
-											<option>Washington</option>
-											<option>California</option>
-											<option>New York</option>
-											<option>Massachusetts</option>
+											<option>HP Pavilion Plus</option>
+											<option>HP Latitude 3000</option>
+											<option>HP Latitude 5000</option>
+											<option>HP Elitebook 645</option>
 										</select>
 									</div>
 									<p>Quantity</p>
@@ -122,6 +121,8 @@ export default function Request() {
 											value={data.quantityToRequest}
 											title='quantityToRequest'
 											id='quantityToRequest'
+											min='0'
+											max='99'
 											type='number'
 											placeholder='0'
 											required></input>
@@ -129,7 +130,7 @@ export default function Request() {
 									<button
 										title='button'
 										type='submit'
-										className='btn btn-primary bg-blue-500 hover:bg-blue-700 text-white text-xl mt-10 py-2 px-7 rounded'>
+										className='btn btn-primary bg-blue-500 hover:bg-blue-700 text-white text-md mt-10 py-2 px-7 rounded'>
 										Submit
 									</button>
 								</div>
